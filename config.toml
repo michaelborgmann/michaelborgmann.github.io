@@ -1,3 +1,4 @@
 baseURL = "https://michaelborgmann.gitlab.io/"
 languageCode = "en-us"
 title = "Michael Borgmann's Website"
+theme = "simple"
