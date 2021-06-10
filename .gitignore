@@ -1,0 +1,5 @@
+# exclude js dependencies
+node_modules
+
+# exlude Hugo's output
+public
