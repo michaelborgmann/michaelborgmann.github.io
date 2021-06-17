@@ -1,0 +1,36 @@
+.search {
+    position: relative;
+}
+
+.search input {
+    text-indent: 25px;
+}
+
+.search .bi-search {
+    left: 12px;
+    position: absolute;
+    top: 7px;
+}
+
+a.tag {
+  background-color: #ddd;
+  color: #333;
+  display: inline-block;
+  padding: 0.1em;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1 em auto;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .pagination{
+    width: 30%;
+  }
+}
