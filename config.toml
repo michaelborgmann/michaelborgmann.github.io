@@ -18,3 +18,4 @@ paginate = 10
   month = "month"
   tag = "tags"
   category = "categories"
+  series = "series"
