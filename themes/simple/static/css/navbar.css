@@ -1,0 +1,17 @@
+.navbar {
+  /* margin-bottom: 40px; */
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    text-indent: 25px;
+}
+
+.search .bi-search {
+    left: 12px;
+    position: absolute;
+    top: 7px;
+}

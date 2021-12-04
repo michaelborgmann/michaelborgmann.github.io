@@ -7,7 +7,6 @@ disqusShortname = "michael-borgmann"
 pygmentsUseClasses = true
 paginate = 10
 
-
 [permalinks]
   posts = "posts/:year/:month/:slug/"
   year = "/posts/:slug"
@@ -16,6 +15,6 @@ paginate = 10
 [taxonomies]
   year = "year"
   month = "month"
-  tag = "tags"
-  category = "categories"
-  series = "series"
+  #tag = "tags"
+  #category = "categories"
+  #tutorial = "tutorials"

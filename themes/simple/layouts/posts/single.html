@@ -1,12 +1,18 @@
 {{ define "main" }}
 
-<article class="post">
+{{- partial "sidebar.html" . -}}
+
+<article class="post container-fluid">
 
   <header>
     <h2>{{ .Title }}</h2>
-    <p>By {{ .Params.Author }}</p>
+
+    <div class="author">
+      <span class="post_author">By {{ .Params.Author }}</span>
+      <span class="post_meta">{{ .Date.Format "Jan 2 2006" }} · {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+    </div>
+
     <p>
-      Posted {{ .Date.Format "January 2,2006" }}
       <span class="tags">
         in
         {{ range .Params.tags }}
@@ -14,7 +20,7 @@
         {{ end }}
       </span>
     </p>
-    <p>Reading time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.</p>
+
   </header>
 
   <section class="body">

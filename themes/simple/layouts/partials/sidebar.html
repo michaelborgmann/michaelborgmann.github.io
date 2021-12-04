@@ -1,0 +1,6 @@
+<!-- sidebar start -->
+<aside class="sidebar">
+  {{ range .Params.sidebar }}
+    {{ . | markdownify }} <br />
+  {{ end }}
+</aside>

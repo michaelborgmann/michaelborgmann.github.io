@@ -1,0 +1,24 @@
+/* .sidebar {
+  float: left;
+  width: 320px;
+  padding: 0px 20px
+} */
+
+article.tutorial {
+  width: 600px;
+}
+
+div.author {
+  padding: 20px 0px;
+}
+
+span.tutorial_author {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+span.tutorial_meta {
+  font-size: 0.9rem;
+  color: #888;
+}

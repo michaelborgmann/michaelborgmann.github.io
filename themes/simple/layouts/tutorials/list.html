@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+  {{- partial "sidebar.html" . -}}
+
+  <h2>{{ .Title }}</h2>
+
+  {{ range .Pages.Reverse }}
+    {{ partial "tutorial_toc.html" . }}
+  {{ end }}
+
+{{ end }}

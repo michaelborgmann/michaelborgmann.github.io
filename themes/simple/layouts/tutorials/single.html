@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<div class="wrapper">
+
+  <div class="collapse collapse-horizontal shadow" id="sidebar">
+    <aside>
+
+      <h5>{{ .CurrentSection.Title }}</h5>
+
+      {{ range .CurrentSection.Pages.Reverse }}
+
+        <h6>{{ .Title }}</h6>
+
+        {{ $permalink := .Permalink }}
+        {{ $fullURL := printf "%s" "#" | printf "%s%s" $permalink }}
+        {{ .TableOfContents | replaceRE "#" $fullURL | safeHTML }}
+
+      {{ end }}
+
+    </aside>
+  </div>
+
+  <div class="content">
+
+    <div class="container-fluid">
+      <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false" aria-controls="sidebar">
+        <i class="bi bi-layout-sidebar"></i>
+      </button>
+    </div>
+
+    <article class="tutorial">
+
+      <header>
+        <h2>{{ .Title }}</h2>
+
+        <div class="author">
+          <span class="tutorial_author">By {{ .Params.Author }}</span>
+          <span class="tutorial_meta">{{ .Date.Format "Jan 2 2006" }} · {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+        </div>
+
+      </header>
+
+      <section class="body">
+        {{ .Content }}
+      </section>
+
+      <section class="comments">
+        <h3>Comments</h3>
+        {{ if .Params.disableComments }}
+          <p>Comments are disabled for this post</p>
+        {{ else }}
+          {{ template "_internal/disqus.html" . }}
+        {{ end }}
+      </section>
+
+    </article>
+
+    <div class="">
+    {{- partial "footer.html" . -}}
+    </div>
+
+  </div>
+
+</div>
+
+{{ end }}
