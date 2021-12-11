@@ -1,0 +1,9 @@
+<center>
+  <div class="row flex-row flex-nowrap overflow-scroll">
+
+    {{ range .Pages.Reverse }}
+      <div class="col col-xs-4">{{ partial "tutorial_toc.html" . }}</div>
+    {{ end }}
+
+  </div>
+</center>

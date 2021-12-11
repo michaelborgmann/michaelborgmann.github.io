@@ -1,0 +1,10 @@
+{
+    "name": "Michael Borgmann",
+    "bio": "Michael is a developer, musician and wannabe filmmaker from Berlin, living in Portugal, mainly baking iOS apps.",
+    "avatar": "/assets/logo.png",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/michaelborgmann/",
+        "twitter": "https://twitter.com/michaelborgmann",
+        "github": "https://github.com/michaelborgmann"
+    }
+}

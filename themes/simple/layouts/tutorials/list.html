@@ -1,11 +1,19 @@
 {{ define "main" }}
 
-  {{- partial "sidebar.html" . -}}
+  <h2 class="text-center">{{ .Title }}</h2>
 
-  <h2>{{ .Title }}</h2>
+    <div class="container">
+      <div class="row">
 
-  {{ range .Pages.Reverse }}
-    {{ partial "tutorial_toc.html" . }}
-  {{ end }}
+        {{ range .Sections.Reverse }}
+
+          <div class="col-sm">
+            {{ partial "tutorial_toc.html" . }}
+          </div>
+
+        {{ end }}
+
+      </div>
+    </div>
 
 {{ end }}

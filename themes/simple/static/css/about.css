@@ -4,6 +4,10 @@
     align-items: stretch;
 }
 
+div#show-sidemenu {
+  padding: 20px 0px;
+}
+
 #sidebar {
     min-height: 100vh;
 }

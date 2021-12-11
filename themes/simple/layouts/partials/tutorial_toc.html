@@ -1,14 +1,20 @@
-<div class="card" style="width: 20rem;">
+<div class="card bg-info bg-gradient text-white" style="width: 248px; height: 450px;">
 
   <!-- <img src="..." class="card-img-top" alt="..."> -->
 
   <div class="card-body">
 
-    <h5 class="card-title">{{ .Title }}</h5>
+    <img src="holder.js/208x268">
 
-    <p class="card-text">{{ .Summary }}</p>
+    <h5 class="card-title text-center">{{ .Title }}</h5>
+    <p class="card-subtitle mb-2 text-muted text-center">{{ .Page.Description }}</p>
 
-    <a href="{{ .RelPermalink }}" class="btn btn-primary">Read</a>
+    {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+
+    <p class="card-text"><small class="text-muted">Last updated {{ .Page.Lastmod.Format "Jan 2 2006" }} · {{ $author.name }}</small></p>
+
+    <a href="{{ .RelPermalink }}" class="stretched-link"></a>
+
   </div>
 
 </div>
