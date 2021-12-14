@@ -22,3 +22,7 @@ span.tutorial_meta {
   font-size: 0.9rem;
   color: #888;
 }
+
+.card {
+  background-image: var(--bs-gradient);
+}

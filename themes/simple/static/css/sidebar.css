@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+div#show-sidemenu {
+  padding: 20px 0px;
+}
+
+aside {
+  width: 320px;
+
+  /* position: fixed;
+  top: 80px;
+  left: 20; */
+
+  height: 100vh;
+}
+
+.content {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

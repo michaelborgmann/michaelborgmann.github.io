@@ -1,21 +1,3 @@
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-}
-
-div#show-sidemenu {
-  padding: 20px 0px;
-}
-
-#sidebar {
-    min-height: 100vh;
-}
-
-aside {
-  width: 320px;
-}
-
 .content {
   width: 600px;
   margin-left: auto;
