@@ -6,6 +6,11 @@
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+
+        {{ if or (ne .Section "tutorials") (ne .IsPage true) }}
+          {{- partial "footer.html" . -}}
+        {{ end }}
+
+        {{- partial "footer_scripts.html" . -}}
     </body>
 </html>

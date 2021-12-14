@@ -2,7 +2,8 @@
 
 <div class="wrapper">
 
-  <div class="collapse collapse-horizontal shadow" id="sidebar">
+  <div id="sidebar" class="collapse collapse-horizontal shadow">
+
     <aside>
 
       <h5>{{ .CurrentSection.Title }}</h5>
@@ -40,7 +41,7 @@
     </aside>
   </div>
 
-  <div class="content">
+  <main class="content">
 
     <div class="container-fluid" id="show-sidemenu">
       <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-expanded="false" aria-controls="sidebar">
@@ -75,11 +76,9 @@
 
     </article>
 
-    <!-- <div class=""> -->
-    <!-- {{- partial "footer.html" . -}} -->
-    <!-- </div> -->
+    {{- partial "footer.html" . -}}
 
-  </div>
+  </main>
 
 </div>
 
