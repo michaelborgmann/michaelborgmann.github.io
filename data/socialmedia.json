@@ -1,0 +1,56 @@
+{
+	"accounts": [
+		{
+			"name": "Apple",
+			"url": "#"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://twitter.com/michaelborgmann"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/michaelborgmann"
+		},
+		{
+			"name": "Xing",
+			"url": "https://www.xing.com/profile/Michael_Borgmann12"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/michaelborgmann"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://gitlab.com/michaelborgmann"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://www.meetup.com/members/197992949"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://www.youtube.com/channel/UCf3-8AN5WObQdppLrviIY4A"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://soundcloud.com/michaelborgmann"
+		},
+		{
+			"name": "Vimeo",
+			"url": "https://vimeo.com/michaelborgmann"
+		},
+		{
+			"name": "Pinterest",
+			"url": "https://www.pinterest.com/michael_borgman"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://www.facebook.com/borgmann.michael"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://www.instagram.com/michael.borgmann/"
+		}
+	]
+}
