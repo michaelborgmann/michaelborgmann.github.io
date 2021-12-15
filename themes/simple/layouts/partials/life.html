@@ -1,0 +1,13 @@
+<div class="life section text-center">
+  <h1 id="life" class="headline">Easy Living</h1>
+
+  {{ $bundle := .Site.GetPage "page" "home_pages" }}
+  {{ range $bundle.Resources.ByType "page"  }}
+    {{ if eq .Title "Life" }}
+      {{ .Content }}
+    {{ end }}
+  {{ end }}
+  
+  <img src="images/logo.png" width="200" height="200" class="d-inline-block align-top rounded-circle mx-auto d-block avatar orange" alt="" style="background-color: #53657D;">
+  <p class="center"><i>I am in the process of producing content to share.</i></p>
+</div>

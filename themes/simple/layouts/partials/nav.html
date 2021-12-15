@@ -10,19 +10,38 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
+
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/about">About</a>
+          {{ if .IsHome }}
+            <a class="nav-link" href="#about">About</a>
+          {{ else }}
+            <a class="nav-link" href="{{ .Site.BaseURL }}#about">About</a>
+          {{ end }}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
+          {{ if .IsHome }}
+            <a class="nav-link" href="#work">Work</a>
+          {{ else }}
+            <a class="nav-link" href="{{ .Site.BaseURL }}#work">Work</a>
+          {{ end }}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Life</a>
+          {{ if .IsHome }}
+            <a class="nav-link" href="#life">Life</a>
+          {{ else }}
+            <a class="nav-link" href="{{ .Site.BaseURL }}#life">Life</a>
+          {{ end }}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          {{ if .IsHome }}
+            <a class="nav-link" href="#contact">Contact</a>
+          {{ else }}
+            <a class="nav-link" href="{{ .Site.BaseURL }}#contact">Contact</a>
+          {{ end }}
         </li>
+
       </ul>
 
       <a class="nav-link" href="/tutorials">Tutorials</a>

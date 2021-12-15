@@ -1,5 +1,9 @@
 {{ define "main" }}
 
-	{{ .Content }}
+	{{- partial "hero.html" . -}}
+	{{- partial "about.html" . -}}
+	{{- partial "work.html" . -}}
+	{{- partial "life.html" . -}}
+	{{- partial "contact.html" . -}}
 
 {{ end }}

@@ -1,0 +1,44 @@
+<div class="work section">
+  <h1 id="work" class="headline">IT Freelancer for Hire</h1>
+
+  {{ $bundle := .Site.GetPage "page" "home_pages" }}
+  {{ range $bundle.Resources.ByType "page"  }}
+
+    {{ if eq .Title "Work" }}
+      <div class="details">{{ .Content }}</div>
+
+      <img src="images/application_photo.jpg" width="200" height="200" class="d-inline-block align-top rounded-circle mx-auto d-block avatar blue" alt="">
+
+      <div class="profile">
+        <p>
+          <strong>Name</strong><br/>
+          {{ .Params.name }}
+        </p>
+        <p>
+          <strong>Age</strong><br/>
+          {{ $diff := now.Sub (time .Params.birthday) }}
+          {{ $years := div (div $diff.Hours 24) 365 }}
+          {{ math.Floor $years }} years
+        </p>
+        <p>
+          <strong>Occupation</strong><br/>
+          {{ .Params.occupation }}
+        </p>
+        <p>
+          <strong>Location</strong><br/>
+          {{ .Params.location }}
+        </p>
+      </div>
+
+      <div class="container col col-lg-6">
+        {{ range .Params.skills }}
+          <div class="skill">
+            <div class="skill-title" style="width: {{ index . 1 }};">{{ index . 0}}</div>
+          </div>
+        {{ end }}
+      </div>
+
+    {{ end }}
+  {{ end }}
+
+</div>

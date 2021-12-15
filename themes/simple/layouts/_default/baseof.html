@@ -3,9 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "nav.html" . -}}
-        <div id="content">
+        <!-- <div id="content"> -->
         {{- block "main" . }}{{- end }}
-        </div>
+        <!-- </div> -->
 
         {{ if or (ne .Section "tutorials") (ne .IsPage true) }}
           {{- partial "footer.html" . -}}
