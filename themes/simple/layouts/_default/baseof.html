@@ -2,10 +2,12 @@
 <html lang="en">
     {{- partial "head.html" . -}}
     <body>
+
         {{- partial "nav.html" . -}}
-        <!-- <div id="content"> -->
-        {{- block "main" . }}{{- end }}
-        <!-- </div> -->
+
+        <div id="content" data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="0" tabindex="0">
+          {{- block "main" . }}{{- end }}
+        </div>
 
         {{ if or (ne .Section "tutorials") (ne .IsPage true) }}
           {{- partial "footer.html" . -}}
