@@ -1,17 +1,30 @@
 <div class="contact section">
   <h1 id="contact" class="headline">Drop Me A Note</h1>
   <div class="container col col-lg-6">
-    <form>
+
+    <form  action="https://hooks.zapier.com/hooks/catch/11489567/b1bc865/" method="POST" name="sentMessage" id="contactForm">
+
       <div class="row">
-        <input type="text" class="form-control" placeholder="Name" required="required">
+        <input type="hidden" name="_subject" value="Contact Message: {{ .Permalink }}">
       </div>
+
       <div class="row">
-        <input type="text" class="form-control" placeholder="E-Mail Address" required="required">
+        <input type="text" name="name" class="form-control" placeholder="Name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
       </div>
+
       <div class="row">
-        <textarea type="text" class="form-control" placeholder="Message" rows="4" required="required"></textarea>
+        <input type="email" name="email" class="form-control" placeholder="E-Mail Address" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . | markdownify }}{{ end }}">
       </div>
-      <div class="center row"><button type="button" class="btn btn btn-outline-success btn-lg">SEND MESSAGE</button></div>
+
+      <div class="row">
+        <textarea type="text" name="message" class="form-control" placeholder="Message" rows="4" required data-validation-required-message="{{ with .Site.Params.contact.form.message.warning }}{{ . | markdownify }}{{ end }}"></textarea>
+      </div>
+
+      <div class="center row">
+        <input type="submit" value="SEND MESSAGE" class="btn btn btn-outline-success btn-lg">
+      </div>
+
     </form>
+
   </div>
 </div>
