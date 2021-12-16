@@ -36,8 +36,8 @@ I create {{< text-color color="orange" string="apps" >}}, {{< text-color color="
 
 I am an {{< text-color color="orange" string="Apple" >}} but respect other platforms.
 
-I am the founder of [{{< text-color color="orange" string="App 'n Dev" >}}](http://www.appndev.com).
+[//]: # (I am the founder of [{{< text-color color="orange" string="App 'n Dev" >}}](http://www.appndev.com).)
 
 I am working on {{< text-color color="orange" string="projects" >}} to disrupt and make this world a better place.
 
-I have a more detailed ~~{{< text-color color="orange" string="résumé" >}}~~ if you are into that sort of things.
+[//]: # (I have a more detailed ~~{{< text-color color="orange" string="résumé" >}}~~ if you are into that sort of things.)
