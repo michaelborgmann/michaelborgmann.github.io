@@ -12,6 +12,7 @@ skills: [
   [ "Swift", 90% ],
   [ "Android", 30% ],
   [ "Java", 60% ],
+  [ "Unity", 40% ],
   [ "UI/UX", 50% ],
   [ "HTML/CSS", 70% ],
   [ "JavaScript", 70% ],
