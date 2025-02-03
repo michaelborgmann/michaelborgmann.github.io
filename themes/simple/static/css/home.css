@@ -2,16 +2,6 @@
   height:calc(100vh - 60px);
 }
 
-.title {
-  font-size: 30pt;
-  font-weight:300;
-}
-
-.slogan {
-  font-size: 14pt;
-  font-weight:100;
-}
-
 .section {
   padding-top:60pt;
   padding-bottom: 40pt;
@@ -33,7 +23,6 @@ p {
 
 .orange { color: #FF9947; }
 .blue { color: #0081D5; }
-.red { color: #D1335B; }
 
 .avatar {
     margin: 10px;
@@ -43,21 +32,16 @@ p {
     border-radius: 500px;
 }
 
-.about { background-color: #EBEFF3; }
-.work { background-color: #FFFFFF; }
-.life { background-color: #9DBF15; }
-.contact { background-color: #FFFFFF; }
-
-.skill { width: 100%; background-color: #eee; }
-
-.skill-title {
-  padding-left: 5pt;
-  background-color: #0081D5;
-  font-size: 14pt;
-  font-weight:300;
-  margin-bottom: 5pt;
+.about {
   color: white;
+  background-color: #1e1e1e;
 }
+.work { background-color: #FFFFFF; }
+.life { 
+  color: white;
+  background: linear-gradient(to bottom, #FA1169, #FEDC36);
+}
+.contact { background-color: #FFFFFF; }
 
 .row {
   margin: 20pt;

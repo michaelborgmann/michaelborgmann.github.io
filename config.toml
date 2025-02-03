@@ -2,19 +2,3 @@ baseURL = "https://michaelborgmann.gitlab.io/"
 languageCode = "en-us"
 title = "Michael Borgmann"
 theme = "simple"
-
-disqusShortname = "michael-borgmann"
-pygmentsUseClasses = true
-paginate = 10
-
-[permalinks]
-  posts = "posts/:year/:month/:slug/"
-  year = "/posts/:slug"
-  month = "/posts/:slug"
-
-[taxonomies]
-  year = "year"
-  month = "month"
-  #tag = "tags"
-  #category = "categories"
-  #tutorial = "tutorials"

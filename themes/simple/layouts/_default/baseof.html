@@ -9,10 +9,7 @@
           {{- block "main" . }}{{- end }}
         </div>
 
-        {{ if or (ne .Section "tutorials") (ne .IsPage true) }}
-          {{- partial "footer.html" . -}}
-        {{ end }}
-
+        {{- partial "footer.html" . -}}
         {{- partial "footer_scripts.html" . -}}
     </body>
 </html>

@@ -4,36 +4,36 @@ date: 2021-11-26T23:03:25Z
 draft: false
 ---
 
-I am from {{% text-color color="orange" string="Berlin" %}} but live in beautiful {{< text-color color="orange" string="Portugal" >}}.
+I am from {{< colorize "Berlin" "orange" >}}, but now I live in beautiful {{< colorize "Portugal" "orange" >}}.
 
-I make {{< text-color color="orange" string="music" >}} and play multiple instruments.
+I make {{< colorize "music" "orange" >}} and play multiple instruments.
 
-I also {{< text-color color="orange" string="record" >}} music.
+I also {{< colorize "record" "orange" >}} music.
 
-I read a lot and sometimes {{< text-color color="orange" string="write" >}}, too.
+I read a lot and sometimes {{< colorize "write" "orange" >}}, too.
 
-I have a passion for movies and documentaries and I am a wannabe {{< text-color color="orange" string="filmmaker" >}} -- it's cool.
+I have a passion for movies and documentaries and I am a wannabe {{< colorize "filmmaker" "orange" >}} -- it's cool.
 
-I also do some {{< text-color color="orange" string="graphics" >}} and {{< text-color color="orange" string="design" >}}, just to mention it.
+I also do some {{< colorize "graphics" "orange" >}} and {{< colorize "design" "orange" >}}, just mentioning.
 
-I enjoy {{< text-color color="orange" string="travelling" >}} and meeting nice people at beautiful places.
+I enjoy {{< colorize "travelling" "orange" >}} and meeting nice people at beautiful places.
 
-I learn {{< text-color color="orange" string="languages" >}} to meet more nice people at even more beautiful places.
+I learn {{< colorize "languages" "orange" >}} to meet more nice people at even more beautiful places.
 
-I am a {{< text-color color="orange" string="vegetarian" >}} because animals are my friends.
+I am a {{< colorize "vegetarian" "orange" >}} because animals are my friends.
 
-I support {{< text-color color="orange" string="sustainable" >}} ideas and buy {{< text-color color="orange" string="organic" >}}.
+I support {{< colorize "sustainable" "orange" >}} ideas and buy {{< colorize "organic" "orange" >}}.
 
-I love planet {{< text-color color="orange" string="earth" >}} and all nice beings down here.
+I love planet {{< colorize "Earth" "orange" >}} and all nice beings down here.
 
-I am team {{< text-color color="orange" string="Snowden" >}} and {{< text-color color="orange" string="WikiLeaks" >}} -- {{< text-color color="orange" string="Free Julian Assange" >}}!
+I'm team {{< colorize "Snowden" "orange" >}} and {{< colorize "Julian Assange" "orange" >}} — exposing the truth is not a crime!
 
-I am into {{< text-color color="orange" string="computer" >}} and {{< text-color color="orange" string="technologies" >}}. It's my job and my passion.
+I'm into {{< colorize "computers" "orange" >}} and {{< colorize "technology" "orange" >}}. It's my job and my passion.
 
-I am into {{< text-color color="orange" string="coding" >}}, {{< text-color color="orange" string="design" >}}, and {{< text-color color="orange" string="entrepreneurship" >}}.
+I'm into {{< colorize "coding" "orange" >}}, {{< colorize "design" "orange" >}}, and {{< colorize "entrepreneurship" "orange" >}}.
 
-I create {{< text-color color="orange" string="apps" >}}, {{< text-color color="orange" string="websites" >}}, {{< text-color color="orange" string="frontends" >}} and {{< text-color color="orange" string="backends" >}}.
+I develop {{< colorize "apps" "orange" >}}, {{< colorize "web" "orange" >}}, and {{< colorize "games" "orange" >}}.
 
-I am an {{< text-color color="orange" string="Apple" >}} but respect other platforms.
+I prefer {{< colorize "Apple" "orange" >}} but respect other platforms.
 
-I am working on {{< text-color color="orange" string="projects" >}} to disrupt and make this world a better place.
+I am working on {{< colorize "projects" "orange" >}} to create change and make the world a better place.
