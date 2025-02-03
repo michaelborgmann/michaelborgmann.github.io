@@ -4,6 +4,16 @@ Welcome to the repository for my personal website built with [Hugo](https://gohu
 
 ---
 
+## Sources / Repository
+
+* This repository is mirrored across [GitHub](https://github.com/michaelborgmann/michaelborgmann.github.io) and [GitLab](https://gitlab.com/michaelborgmann/michaelborgmann.gitlab.io).
+* You can access the site on:
+    * **GitHub**: [michaelborgmann.github.io](https://michaelborgmann.github.io)
+    * **GitLab**: [michaelborgmann.gitlab.io](https://michaelborgmann.gitlab.io)
+* The website is accessible at [michaelborgmann.com](https://www.michaelborgmann.com) and deployed on [Netlify](https://michaelborgmann.netlify.app).
+
+---
+
 ## Licensing
 
 Because this repository includes both code and creative content, different parts are licensed under different terms.
